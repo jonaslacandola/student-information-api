@@ -23,7 +23,7 @@ router.get("/", async (req, res) => {
           program: doc.program,
           student: {
             type: "GET",
-            url: `http://localhost:8000/v1/students/${doc._id}`,
+            url: `https://student-information-l03n.onrender.com/v1/students/${doc._id}`,
           },
         };
       }),
@@ -60,7 +60,7 @@ router.post("/", async (req, res) => {
         program: result.program,
         student: {
           type: "GET",
-          url: `http://localhost:8000/v1/students/${result._id}`,
+          url: `https://student-information-l03n.onrender.com/v1/students/${result._id}`,
         },
       },
     });
