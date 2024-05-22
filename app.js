@@ -8,7 +8,7 @@ import studentsRouter from "./api/routes/students.js";
 const app = express();
 
 mongoose.connect(
-  "mongodb+srv://jonaslacandola:LGYQZIteghisoAkR@node-rest-shop.yec6mmx.mongodb.net/?retryWrites=true&w=majority&appName=node-rest-shop"
+  "mongodb+srv://athensangel:f979N54cJyZFI5pC@cluster0.1bb6e6h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 );
 
 app.use(morgan("dev"));
